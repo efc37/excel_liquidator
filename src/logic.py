@@ -62,7 +62,7 @@ def calculo_liquidacion(archivo_path, nombre_salida):
     columnas = list(df_total.columns)
     col_dni = columnas[0]
     
-    # Columnas a sumar (desde la cuarta posición en adelante según tu lógica)
+    # Columnas a sumar
     cols_a_sumar = columnas[3:]
 
     # 4. Agrupar y Sumar (Forma eficiente con Pandas)
